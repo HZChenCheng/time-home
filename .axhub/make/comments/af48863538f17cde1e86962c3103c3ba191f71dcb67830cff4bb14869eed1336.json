@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 3,
+  "kind": "prototype-edit-comments",
+  "resource": {
+    "id": "ecommerce-app",
+    "targetPath": "prototypes/ecommerce-app",
+    "filePath": ".axhub/make/comments/af48863538f17cde1e86962c3103c3ba191f71dcb67830cff4bb14869eed1336.json"
+  },
+  "comments": [
+    {
+      "label": "div(\"补贴百亿补贴\")",
+      "locator": {
+        "selectors": [
+          "body > div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(3)",
+          "#root div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(3)"
+        ],
+        "fingerprint": "div|class=ec-quick-entry-item|text=补贴百亿补贴",
+        "path": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2
+        ]
+      },
+      "marker": {
+        "clientX": 980.16015625,
+        "clientY": 273.546875,
+        "documentX": 980.16015625,
+        "documentY": 273.546875,
+        "xPercent": 51.05000813802083,
+        "y": 273.546875,
+        "isFixed": false,
+        "offsetX": 57.56640625,
+        "offsetY": 39.953125,
+        "dirtySince": 1786408844153
+      },
+      "id": "00e5e7f5-604a-41d4-8f2d-33483d985f45",
+      "state": "idle",
+      "comment": "1111",
+      "pageScope": "prototypes/ecommerce-app::page::home",
+      "provider": null,
+      "requestId": null,
+      "sessionId": null,
+      "updatedAt": null,
+      "message": null,
+      "code": null
+    },
+    {
+      "label": "div(\"📱\")",
+      "locator": {
+        "selectors": [
+          "body > div > div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+          "#root div > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        ],
+        "fingerprint": "div|class=ec-flash-sale-item-img|text=📱",
+        "path": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          0,
+          0
+        ]
+      },
+      "marker": {
+        "clientX": 841.22265625,
+        "clientY": 424.1796875,
+        "documentX": 841.22265625,
+        "documentY": 424.1796875,
+        "xPercent": 43.813680013020836,
+        "y": 424.1796875,
+        "isFixed": false,
+        "offsetX": 56.22265625,
+        "offsetY": 56.0859375,
+        "dirtySince": 1786410154063
+      },
+      "id": "a12fe938-8bf5-4c49-a271-971cf5c4f49e",
+      "state": "idle",
+      "comment": "1222",
+      "pageScope": "prototypes/ecommerce-app::page::home",
+      "provider": null,
+      "requestId": null,
+      "sessionId": null,
+      "updatedAt": null,
+      "message": null,
+      "code": null
+    },
+    {
+      "label": "div#root",
+      "locator": {
+        "selectors": [
+          "#root",
+          "body > div"
+        ],
+        "fingerprint": "div|id=root|text=搜索商品限时特惠 全场低至5折精选好物 抢完即止🆕天猫新品💰",
+        "path": [
+          0,
+          1,
+          0
+        ]
+      },
+      "marker": {
+        "clientX": 1643.6953125,
+        "clientY": 232.50390625,
+        "documentX": 1643.6953125,
+        "documentY": 232.50390625,
+        "xPercent": 85.609130859375,
+        "y": 232.50390625,
+        "isFixed": false,
+        "offsetX": 1643.6953125,
+        "offsetY": 232.50390625,
+        "dirtySince": 1786408879033
+      },
+      "id": "af613b5f-dbde-44ba-8a80-1b600e9075b1",
+      "state": "idle",
+      "comment": "111",
+      "pageScope": "prototypes/ecommerce-app::page::home",
+      "provider": null,
+      "requestId": null,
+      "sessionId": null,
+      "updatedAt": null,
+      "message": null,
+      "code": null
+    },
+    {
+      "label": "div(\"充值\")",
+      "locator": {
+        "selectors": [
+          "body > div > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1)",
+          "#root div > div:nth-of-type(1) > div > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(1)"
+        ],
+        "fingerprint": "div|class=ec-quick-entry-icon|text=充值",
+        "path": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          0
+        ]
+      },
+      "marker": {
+        "clientX": 1123.42578125,
+        "clientY": 259.56640625,
+        "documentX": 1123.42578125,
+        "documentY": 259.56640625,
+        "xPercent": 58.51175944010417,
+        "y": 259.56640625,
+        "isFixed": false,
+        "offsetX": 35.83203125,
+        "offsetY": 25.97265625,
+        "dirtySince": 1786408867549
+      },
+      "id": "9f167896-301f-4e70-a93e-d2f7d77fd00d",
+      "state": "error",
+      "comment": "111",
+      "pageScope": "prototypes/ecommerce-app::page::home",
+      "provider": "api",
+      "requestId": "annotation-direct-1786409257495",
+      "sessionId": null,
+      "updatedAt": 1786409257551,
+      "message": "AI 修改失败",
+      "code": "EXTERNAL_EDITING_ERROR"
+    }
+  ],
+  "images": []
+}

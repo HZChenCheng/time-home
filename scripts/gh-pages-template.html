@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>电商 APP 原型</title>
+  <style>
+    html, body, #root {
+      min-height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    /* 移动端框架：居中 + 固定宽度模拟手机 */
+    #phone-frame {
+      width: 100%;
+      max-width: 390px;
+      margin: 0 auto;
+      min-height: 100vh;
+      background: #fff;
+      position: relative;
+      overflow-x: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    }
+    @media (min-width: 768px) {
+      body {
+        background: #e8e8e8;
+        padding: 20px 0;
+      }
+      #phone-frame {
+        border-radius: 20px;
+        overflow: hidden;
+        min-height: calc(100vh - 40px);
+      }
+    }
+    /* 加载占位 */
+    #loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #FF4400;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div id="phone-frame">
+    <div id="root">
+      <div id="loading">加载中...</div>
+    </div>
+  </div>
+
+  <!-- React 18 UMD（IIFE bundle 的外部依赖） -->
+  <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+
+  <!-- 原型 IIFE bundle -->
+  <script src="./prototypes/ecommerce-app.js"></script>
+</body>
+</html>

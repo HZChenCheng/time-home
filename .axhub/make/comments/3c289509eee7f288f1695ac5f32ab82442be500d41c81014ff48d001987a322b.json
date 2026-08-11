@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 3,
+  "kind": "document-edit-comments",
+  "resource": {
+    "id": "3c289509eee7f288f1695ac5f32ab82442be500d41c81014ff48d001987a322b",
+    "targetPath": "src/prototypes/ecommerce-app/.spec/spec.md",
+    "filePath": ".axhub/make/comments/3c289509eee7f288f1695ac5f32ab82442be500d41c81014ff48d001987a322b.json"
+  },
+  "comments": [],
+  "images": [],
+  "documentPath": "src/prototypes/ecommerce-app/.spec/spec.md"
+}
