@@ -30,6 +30,19 @@ if (!fs.existsSync(bundlePath)) {
 fs.copyFileSync(templatePath, indexPath);
 console.log(`[gh-pages] 已生成 ${path.relative(workspaceRoot, indexPath)}`);
 
+// 复制 React / ReactDOM UMD 到 dist/vendor，避免依赖外部 CDN（unpkg 在大陆常不可达）
+const vendorDir = path.resolve(distDir, 'vendor');
+fs.mkdirSync(vendorDir, { recursive: true });
+const reactUmd = path.resolve(workspaceRoot, 'node_modules/react/umd/react.production.min.js');
+const reactDomUmd = path.resolve(workspaceRoot, 'node_modules/react-dom/umd/react-dom.production.min.js');
+if (!fs.existsSync(reactUmd) || !fs.existsSync(reactDomUmd)) {
+  console.error('[gh-pages] 找不到 React UMD 文件，请确认已安装 react / react-dom');
+  process.exit(1);
+}
+fs.copyFileSync(reactUmd, path.resolve(vendorDir, 'react.production.min.js'));
+fs.copyFileSync(reactDomUmd, path.resolve(vendorDir, 'react-dom.production.min.js'));
+console.log('[gh-pages] 已内置 React UMD 到 vendor/');
+
 // 验证文件
 const files = [];
 function walk(dir, base = '') {
